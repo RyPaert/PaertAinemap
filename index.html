@@ -78,6 +78,48 @@ https://chatgpt.com/share/67a1ddbf-af7c-8008-bc48-9adeb4f215d4 -->
 			</a>
 		</nav>
 	</footer>
+	</div>
+	<div class="popup" id="popup">
+		<div class="popup-content">
+			<p>Popup</p>
+			<ul>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+				<li>temp</li>
+			</ul>
+		</div>
+	</div>	
 <body>
-
+	<!-- I used ChatGPT to create this script, and the popup div right above, this is the link to the conversation
+	https://chatgpt.com/share/67a35fe0-1b20-8008-9416-936e2cc84807 -->
+	<script>
+		const homeButton = document.querySelector('.home-button');
+		const popup = document.getElementById('popup');
+	  
+		homeButton.addEventListener('click', (event) => {
+		  event.preventDefault(); 
+		  if (popup.style.display === 'block') {
+			popup.style.display = 'none';
+		  } else {
+			popup.style.display = 'block';
+		  }
+		});
+	  
+		document.addEventListener('click', (event) => {
+		  if (!popup.contains(event.target) && !homeButton.contains(event.target)) {
+			popup.style.display = 'none';
+		  }
+		});
+	  </script>
 </html>

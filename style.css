@@ -35,3 +35,39 @@ footer a {
     padding: 0;
     vertical-align: middle;
 }
+/* Start Popup */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
+.popup {
+    position: fixed;
+    bottom: 80px; /* Adjust based on your footer height */
+    left: 10px;
+    width: 250px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    display: none;
+    z-index: 1000;
+  }
+  .popup-content {
+    padding: 15px;
+  }
+  .popup-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .popup-content li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  .popup-content li:hover {
+    background: #f0f0f0;
+  }
