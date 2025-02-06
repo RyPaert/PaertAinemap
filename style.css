@@ -41,6 +41,42 @@ footer a {
     display: inline-block;
     cursor: pointer;
 }
+.popup-header {
+  background: linear-gradient(#1a66c6, #4292e9);
+  padding: 0px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.profilePicture {
+  width: 50;
+  height: 50px;
+  border: 2px solid white; 
+}
+.header-shine {
+  background-color: #4292e9;
+  height: 3px;
+  top: 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.username-Span {
+  top: 40px;
+  left: 100px;
+  position: absolute;
+  color: white;
+}
+.popup-content a, li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.startMenuButtonText {
+  display: inline-block;
+}
 
 
 
