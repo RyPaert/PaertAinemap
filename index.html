@@ -5,72 +5,11 @@ https://chatgpt.com/share/67a1ddbf-af7c-8008-bc48-9adeb4f215d4 -->
 
 <head>
     <meta charset="UTF-8">
-    <title>Thomas-Henry Pärt</title>
+    <title>Pärt KodulehtXP</title>
 	<link rel="stylesheet" href="style.css">
 </head>	
 
 <body>
-	<table border = "1">
-		<tbody>
-			<tr>
-				<td style>
-					<img src="pictures/Portrai.png">
-				</td>
-				<td>
-				<h2>Thomas-Henry Pärt</h2>
-					<ul>
-						<li>Sünnikoht: Tallinn</li>
-						<li>Iseloomustus: "Veidi fruity"</li>
-						<li>Email: thomashenrypaert@gmail.com</li>
-						<li>Veebilehekülg: <a href="https://thomas-henrypart23.thkit.ee/">thomas-henrypart23.thkit.ee</a></li>
-						<li>Moto: 雪雁不需要洗澡就能变白。你也不需要做任何事情，只要做自己就行</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td col-span = "2">
-					<h3>TARpe23</h3>
-					<li><a href="studentlist.html">Students list</a></li>
-					<!-- Tunnitööd -->
-					<h3>Tunnitööd</h3>
-
-					<ol>
-						<li><a href="esimene.html">Esimene </a></li>
-						<li><a href="Kordamine.html">Kordamine </a></li>
-						<li><a href="Struktuur.html">Struktuur </a></li>						
-						<li><a href="siseviide.html#sise3">Siseviite kolmas lõik</a></li>
-						<li><a href="https://www.tthk.ee/" target="_blank">Kooli koduleht</a></li>
-						<li><a href="Tekstimarkeerimine.html">Tekstimarkeerimine</a></li>
-                        <li><a href="kordamine/kordamine.html">Kordamine</li>
-                        <li><a href="kordamine/kordamine2.html">Teise õpilase kordamine</a></li>
-                        <li><a href="joonistus/Enderman.html">Lego Enderman Joonistus</a></li>
-					</ol>
-					<!-- Metshein HTML -->
-                    <h3>Metsheini HTML Harjutused</h3>
-                    <ol> 
-                        <li><a href="veel.html">Harjutus 3</a></li>
-                        <li><a href="harjutus4/Index.html">Harjutus 4</a></li>
-                        <li><a href="harjutus5/harjutus5.html">Harjutus 5</a></li>
-                        <li><a href="harjutus6/harjutus6.html">Harjutus 6</a></li>                      
-                    </ol>
-					<!-- CSS -->
-                    <h3>Metsheini CSS Harjutused</h3>
-                    <ol>
-                        <li><a href="CSS/Lõigud_3_Pärt_Thomas-Henry_TARpe23.html">Lõigud</a></li>
-                    </ol>
-					<!-- JAVA -->
-                    <h3>Metsheini JAVA Harjutused</h3>
-                    <ol>
-                        <li><a href="javafiles.html">Java</a></li>
-                    </ol>
-					<!-- AINEMAPP -->
-                    <h3>Ainemapp</h3>
-                    <ol>
-                        <li><a href="arendustsyklid/waterfall.html">waterfall</a></li>
-                    </ol>
-				</td>
-			</tr>
-	</table>
 	<footer>
 		<nav>
 			<a href="#" class="home-button">
@@ -89,31 +28,231 @@ https://chatgpt.com/share/67a1ddbf-af7c-8008-bc48-9adeb4f215d4 -->
 		</div>
 		<div class="popup-content">
 			<p>Popup</p>
-			<ul>
-				<li>
-					<a href="https://www.youtube.com/watch?v=xGdGGAYck-E&list=TLPQMDYwMjIwMjUWpCkBJyM9mg&index=3">
-					<img src="resources/images/placeholder.jpg" height="40" width="40">
-					<div class="startMenuButtonText">
-						<b>Student List</b><br>
-						Student List
-					</div>
-				</a>
+			<!-- LEFTSIDE STARTMENU -->
+			<ul class="popup-list">
+				<li class="list-item" data-target="file-explorer-student-list">
+					<a href="#">
+						<img src="resources/images/msn.png" height="40" width="40">
+						<div class="startMenuButtonText">
+							<b>Student List</b><br>
+							Student List
+						</div>
+					</a>
 				</li>	
-				<li>
-					<a href="https://www.youtube.com/watch?v=xGdGGAYck-E&list=TLPQMDYwMjIwMjUWpCkBJyM9mg&index=3">
-					<img src="resources/images/placeholder.jpg" height="40" width="40">
-					<div class="startMenuButtonText">
-						<b>Placeholder</b><br>
-						Placeholder
-					</div>
-				</a>
+				<li class="list-item" data-target="file-explorer-tunnitood">
+					<a href="#">
+						<img src="resources/images/tunnitood.png" height="40" width="40">
+						<div class="startMenuButtonText">
+							<b>Tunnitööd</b><br>
+							Tunnitööd
+						</div>
+					</a>
 				</li>
 			</ul>
 		</div>
 	</div>	
+	<!-- FILE EXPLORER DIV -->
+	<div class="file-explorer" id="file-explorer-student-list">
+
+		<div class="file-explorer-header">
+		📁Student List
+		<button class="close-btn">✖</button>
+		</div>
+		<div class="file-explorer-body">
+			<div class="file-explorer-sidebar">
+				<a>deez</a> <br>
+				<a>deez</a>
+			</div>
+			<div class="explorer-content">
+				<table border = "1">
+					<tbody>
+						<tr>
+							<td>
+								<a href = "https://maribelelmann23.thkit.ee/">Maribel Elman</a>
+							</td>
+							<td>
+								<a href = "https://mikkmarlonkivisild23.thkit.ee/">Mikk Marlon Kivisild</a>
+							</td>
+							<td>
+								<a href = "https://melkosk23.thkit.ee/">Mel Kosk</a>
+							</td>
+							<td>
+								<a href = "https://christoferkrabbi23.thkit.ee/">Christofer Krabbi</a>
+							</td>
+							<td>
+								<a href = "https://tormilaane23.thkit.ee/">Tormi Laane</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href = "https://allanleibenau23.thkit.ee/">Allan Leibenau</a>
+							</td>
+							<td>
+								<a href = "https://allanlond23.thkit.ee/">Allan Lond</a>
+							</td>
+							<td>
+								<a href = "https://markomaripuu23.thkit.ee/">Marko Maripuu</a>
+							</td>
+							<td>
+								<a href = "https://trevormetsmaaker23.thkit.ee/">Trevor Metsmaaker</a>
+							</td>
+							<td>
+								<a href = "https://kennethmand23.thkit.ee/">Kenneth Mand</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href = "https://cristianpent23.thkit.ee/">Christian Pent</a>
+							</td>
+							<td>
+								<a href = "https://arturpetrovski23.thkit.ee/">Artur Petrovski</a>
+							</td>
+							<td>
+								<a href = "https://mihkelploompuu23.thkit.ee/">Mihkel Ploompuu</a>
+							</td>
+							<td>
+								<a href = "https://thomas-henrypart23.thkit.ee/">Thomas-Henry Pärt</a>
+							</td>
+							<td>
+								<a href = "https://sandrasark23.thkit.ee/">Sandra Sark</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href = "https://simonsassian23.thkit.ee/">Simon Sassian</a>
+							</td>
+							<td>
+								<a href = "https://yanshapovalov23.thkit.ee/">Yansha Povalov</a>
+							</td>
+							<td>
+								<a href = "https://artjomskatskov23.thkit.ee/">Artjom Skatskov</a>
+							</td>
+							<td>
+								<a href = "https://joonaskaurtahk23.thkit.ee/">Joonas Kaur Tahk</a>
+							</td>
+							<td>
+								<a href = "https://alanmarkusunt23.thkit.ee/">Alan Markus Unt</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href = "https://tannovalk23.thkit.ee/">Tanno Valk</a>
+							</td>
+							<td>
+								<a href = "https://markovassiljev23.thkit.ee/">Marko Vassiljev</a>
+							</td>
+							<td>
+								<a href = "https://stenuesson23.thkit.ee/">Sten Uesson</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- TUNNITOOD -->
+	<div class="file-explorer" id="file-explorer-tunnitood">
+		<div class="file-explorer-header">
+		📁Tunnitööd
+		<button class="close-btn">✖</button>
+		</div>
+		<div class="file-explorer-body">
+			<div class="file-explorer-sidebar"> 
+				<a>ligma</a>
+			</div>
+			<div class="explorer-content">
+				<a href="" data-target="file-explorer-html-exercises">📁HTML Exercises</a> <br>
+				<a href="" data-target="file-explorer-java-exercises">📁JAVA Exercises</a> <br>
+				<a href="" data-target="file-explorer-css-exercises">📁CSS Exercises</a> <br>
+				<a href="" data-target="file-explorer-arendustysklid">📁Arendustysklid</a>
+
+			</div>
+		</div>
+	</div>
+	<!-- HTML HARJUTUSED -->
+	<div class="file-explorer" id="file-explorer-html-exercises">
+		<div class="file-explorer-header">
+		📁HTML Exercises
+		<button class="close-btn">✖</button>
+		</div>
+		<div class="file-explorer-body">
+			<div class="file-explorer-sidebar"> 
+				<a>teine</a>
+			</div>
+			<div class="explorer-content">
+				<a href="exercises/htmlexercises/esimene.html">📝Esimene</a> <br>
+				<a href="exercises/htmlexercises/Kordamine.html">📝Kordamine</a> <br>
+				<a href="exercises/htmlexercises/siseviide.html">📝Siseviide</a> <br>
+				<a href="exercises/htmlexercises/Struktuur.html">📝Struktuur</a> <br>
+				<a href="exercises/htmlexercises/Tekstimarkeerimine.html">📝Tekstimarkeerimine</a> <br>
+				<a href="exercises/htmlexercises/veel.html">📝CV</a> <br>
+				<a href="exercises/htmlexercises/Viited.html">📝Viited</a> <br>
+				<a href="exercises/htmlexercises/Joonistus/Enderman.html">📝Enderman</a> <br>
+				<a href="exercises/htmlexercises/Joonistus/Joonistus.html">📝Joonistus</a> <br>
+				<a href="exercises/htmlexercises/Harjutus4/Index.html">📝Index</a> <br>
+				<a href="exercises/htmlexercises/Harjutus4/Kontakt.html">📝Kontakt</a> <br>
+				<a href="exercises/htmlexercises/Harjutus4/Teenused.html">📝Teenused</a> <br>
+				<a href="exercises/htmlexercises/Harjutus5/harjutus5.html">📝Harjutus 5</a> <br>
+				<a href="exercises/htmlexercises/harjutus6/harjutus6.html">📝Harjutus 6</a> <br>
+			</div>
+		</div>
+	</div>
+	<!-- JAVA HARJUTUSED -->
+	<div class="file-explorer" id="file-explorer-java-exercises">
+		<div class="file-explorer-header">
+		📁JAVA Exercises
+		<button class="close-btn">✖</button>
+		</div>
+		<div class="file-explorer-body">
+			<div class="file-explorer-sidebar"> 
+				<a>teine</a>
+			</div>
+			<div class="explorer-content">
+				<a href="exercises/javaexercises/01/ylesanne01.html">📝ylesanne 1</a> <br>
+				<a href="exercises/javaexercises/02/ylesanne02.html">📝ylesanne 2</a> <br>
+				<a href="exercises/javaexercises/03/ylesanne03.html">📝ylesanne 3</a> <br>
+				<a href="exercises/javaexercises/04/ylesanne04.html">📝ylesanne 4</a> <br>
+				<a href="exercises/javaexercises/05/ylesanne05.html">📝ylesanne 5</a> <br>
+				<a href="exercises/javaexercises/22-localstorage/ylesanne15.html">📝Local Storage</a> <br>
+			</div>
+		</div>
+	</div>
+	<!-- CSS HARJUTUSED -->
+	<div class="file-explorer" id="file-explorer-css-exercises">
+		<div class="file-explorer-header">
+		📁CSS Exercises
+		<button class="close-btn">✖</button>
+		</div>
+		<div class="file-explorer-body">
+			<div class="file-explorer-sidebar"> 
+				<a>teine</a>
+			</div>
+			<div class="explorer-content">
+				<a href="exercises/cssexercises/Lõigud_3_Pärt_Thomas-Henry_TARpe23.html">📝Loigud</a> <br>
+			</div>
+		</div>
+	</div>
+	<!-- ARENDUSTSÜKLID -->
+	<div class="file-explorer" id="file-explorer-arendustysklid">
+		<div class="file-explorer-header">
+		📁HTML Exercises
+		<button class="close-btn">✖</button>
+		</div>
+		<div class="file-explorer-body">
+			<div class="file-explorer-sidebar"> 
+				<a>teine</a>
+			</div>
+			<div class="explorer-content">
+				<a href="exercises/arendustsyklid/Inkrementaalne.html">📝Inkrementaalne</a> <br>
+				<a href="exercises/arendustsyklid/prototüüpimine.html">📝Prototüüpimine</a> <br>
+				<a href="exercises/arendustsyklid/spiraal.html">📝Spiraal</a> <br>
+				<a href="exercises/arendustsyklid/waterfall.html">📝Waterfall</a> <br>
+			</div>
+		</div>
+	</div>
 <body>
 	<!-- I used ChatGPT to create this script, and the popup div right above, this is the link to the conversation
-	https://chatgpt.com/share/67a35fe0-1b20-8008-9416-936e2cc84807 && https://chatgpt.com/share/67a35fe0-1b20-8008-9416-936e2cc84807-->
+	https://chatgpt.com/share/67a35fe0-1b20-8008-9416-936e2cc84807-->
 	<script>
 		const homeButton = document.querySelector('.home-button');
 		const popup = document.getElementById('popup');
@@ -132,5 +271,46 @@ https://chatgpt.com/share/67a1ddbf-af7c-8008-bc48-9adeb4f215d4 -->
 			popup.style.display = 'none';
 		  }
 		});
-	  </script>
+
+		// FILE EXPLORER
+
+		document.querySelectorAll('.list-item').forEach(item => {
+		item.addEventListener('click', (e) => {
+			e.preventDefault();
+
+			document.querySelectorAll('.file-explorer').forEach(win => win.style.display = 'none');
+
+			const targetWindow = document.getElementById(item.dataset.target);
+			targetWindow.style.display = 'block';
+		});
+		});
+
+		document.querySelectorAll('.close-btn').forEach(button => {
+		button.addEventListener('click', (e) => {
+			e.stopPropagation();
+			button.parentElement.parentElement.style.display = 'none';
+		});
+		});
+
+		// FILE EXPLORER FOLDER TRANSFERS
+		document.querySelectorAll('a[data-target]').forEach(item => {
+    	item.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        // Hide all file explorer divs
+        document.querySelectorAll('.file-explorer').forEach(win => {
+            win.style.display = 'none';
+        });
+
+        // Get the target div using data-target attribute
+        const targetId = item.getAttribute('data-target');
+        const targetDiv = document.getElementById(targetId);
+
+        // Show the target div
+        if (targetDiv) {
+            targetDiv.style.display = 'block';
+        }
+    });
+});
+	</script> 
 </html>

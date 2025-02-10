@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang = "et">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Harjutus 6</title>
+		<style>
+		label {
+			width: 150px;
+			text-align: left;
+			margin-left: 10px;
+		}
+		form {
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+		}		
+		</style>
+	</head>
+	
+	<body>
+		<h1>Vormide loomine</h1>
+		<form>
+		<table>
+			<tbody>
+				
+				<tr>
+					<td>
+						<label for = "username">Kasutajanimi:</label>
+					</td>
+					<td>
+						<input id = "username" type = "text" placeholder = "max pikkus 6" maxlength = "6">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for = "course">Kursus:</label>
+					</td>
+					<td>
+						<input id = "course" type = "text" placeholder = "max pikkus 3" maxlength = "3">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for = "DepartmentNumber">Osakonna number:</label>
+					</td>
+					<td>
+						<select id = "DepartmentNumber">
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for = "pass">Parool:</label>
+					</td>
+					<td>
+						<input id = "pass" type = "password">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for = "Service">Vali teenus:</label>
+					</td>
+					<td>
+						<select id = "Service">
+							<option value = "cheap">Odav 0,59€</option>
+							<option value = "affordable">Keskmine 1,59€</option>
+							<option value = "costly">Kallis 2,59€</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Roll:</label>
+					</td>
+					<td>
+					<input  id = "Admin" type="radio" name = "Raadionupp" value="Valik">
+					<label for = "Admin">Admin</label>
+					<br>
+					<input  id = "Mod" type="radio" name = "Raadionupp" value="Valik">
+					<label for = "Mod">Moderator</label>
+					<br>
+					<input  id = "User" type="radio" name = "Raadionupp" value="Valik">
+					<label for = "User">User</label>
+					<br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for = "agree">Nõustun tingimustega:</label>						
+					</td>
+					<td>
+						<input id = "agree" type = "checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for = "selfdesc">Enesetutvustus:</label>					
+					</td>
+					<td>
+						<textarea id = "selfdesc" rows = "10" cols = "20"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input value= "Tühjenda väljad" name= "reset" type = "reset">
+					</td>
+					<td>
+						<input value= "Saada" name= "submit" type = "submit">
+					</td>
+				</tr>
+			</tbody>		
+		</table>	
+		</form>		
+	</body>
+</html>

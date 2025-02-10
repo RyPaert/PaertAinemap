@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ülesanne 3</title>
+    <script src="ylesanne03.js" defer></script>
+</head>
+<body>   
+
+        <h1>Aja arvutamine</h1>
+        <form onsubmit="return CalculateTravelTime();" method="post">
+            <div class="timeCalculator">
+            <fieldset>
+                <label for="distance">Distance(km):</label>
+                <input placeholder="Distance" type="number" id="distance" name="distance" required>
+                <br>
+                <label for="speed">Speed(km/h):</label>
+                <input  placeholder="Speed" type="number" id="speed" name="speed" required>
+            </fieldset>
+            <input value="Submit" name="time" type="submit">
+            </div>   
+        </form>
+        <div id="TravelTimeResult">
+
+        </div>
+
+        <h2>Postituste kuvamine</h2>
+        <form onsubmit="return showPosts()" method="post">
+            <div class="postperpage">
+            <fieldset>
+                <label for="MaxPostsPerPage">Max posts per page:</label>
+                <input placeholder="10" type="number" id="MaxPostsPerPage" name="MaxPostsPerPage" required>
+                <br>
+                <label for="AmountOfPosts">Amount of posts:</label>
+                <input placeholder="137" type="number" id="AmountOfPosts" name="AmountOfPosts" required>
+            </fieldset>
+            <input value="Submit" name="Price" type="submit">
+            </div>
+        </form>
+        <div id="ShowPostsResults">
+
+        </div>
+
+    <div class="ServerRunCost">
+        <h2>Serveri töökulu</h2>
+        <form onsubmit="return ServerRunningCosts()" method="post">
+            <fieldset>
+                <label for="ServerPower">Server Power(W):</label>
+                <input placeholder="400" type="number" id="ServerPower" name="ServerPower" required>
+                <br>
+                <label for="ElectricityPrice">Electricty Price(Sents/KWH):</label>
+                <input placeholder="9.69" type="number" id="ElectricityPrice" name="ElectricityPrice" required>               
+            </fieldset>
+            <input value="Submit" name="ServerRunCost" type="submit">
+        </form>
+        <div id = ServerRunCostResult>
+
+        </div>
+    </div>
+</body>
+</html>

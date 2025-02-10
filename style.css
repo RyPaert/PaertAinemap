@@ -77,10 +77,6 @@ footer a {
 .startMenuButtonText {
   display: inline-block;
 }
-
-
-
-
 .popup {
     position: fixed;
     bottom: 80px; /* Adjust based on your footer height */
@@ -107,3 +103,60 @@ footer a {
   .popup-content li:hover {
     background: #f0f0f0;
   }
+
+  /* FILE EXPLORER STYLES */
+  .file-explorer {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 600px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    flex-direction: column;
+  }
+  .file-explorer-sidebar {
+    left: 0px;
+    width: 120px;
+    height: 338px;
+    background-color: #e6e6e6;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  .file-explorer-header {
+    background: linear-gradient(to right, #1c5db6, #3a92f0);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; /* Ensures header stays on top */
+  }
+  .file-explorer-body {
+    display: flex;
+  }
+  .close-btn:hover {
+    background-color: rgb(255, 0, 0);
+    top: 0px;
+    right: 0px;
+  }
+  .file-explorer-student-list {
+    display: none;
+  }
+  .explorer-content, a {
+    padding: 10px;
+    flex: 1;
+    text-decoration: none;
+  }
+  .file-explorer-html-exercises {
+    display: none;
+  }
+
+
+
+
+  
